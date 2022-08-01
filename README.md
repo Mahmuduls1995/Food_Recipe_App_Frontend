@@ -1,29 +1,21 @@
 <div align="center">
-  <img align="center" src="./src/images/logo.png" alt="Error 404" height="150">
-  <h1 align="center">Memories</h1>
+  <img align="center" src="./src/images/logo-design.png" alt="Error 404" height="150">
+  <h1 align="center">Food Recipe App</h1>
 </div>
 
 
-<h2>Do you any interesting Anecdote?</h2>
-<h2>Don't wait! Go and post it on: https://memories-a.firebaseapp.com/</h2>
+<h2>Do you any interesting Food Recipe?</h2>
+<h2>Don't wait! Go and post it on: https://food-recipe-app-c79d0.web.app/</h2>
 
 ## About Memories:
-Memories is an Web Application where individuals can post their daily interesting Anecdotes. It's a social platform where people can enjoy, share, read, like or dislike the stories of their friends and other people from all around the world.
-
-## Screen Shots:
-<div align="center">
-  <img src="./public/1.png" height="600"  alt="S1">
-  <img src="./public/2.png" height="600"  alt="S2">
-</div>
+Food Recipe is an Web Application where individuals can post their daily interesting Food Recipe. It's a social platform where people can enjoy, share, read, like or dislike the stories of their friends and other people from all around the world.
 
 ### Steps to Run on Local Machine
 
 ***
 
 #### Note: You need to have Node.Js installed in your Local Machine if not, first install it from <a href="https://nodejs.org/en/">here</a>.
-##### Step 1) Clone AmanSinghBhogal/Memories-Frontend repository.
-##### Step 2) Clone AmanSinghBhogal/Memories-Backend repository.
-##### Step 3) Open Memories-Frontend cloned Directory in Command Prompt and run the following command (It will install all the Dependencies needed to run):
+run the following command (It will install all the Dependencies needed to run):
 ```
 npm i
 ```
@@ -36,7 +28,7 @@ npm start
       Local:            http://localhost:3000 
       webpack compiled successfully
 #### Step 6) Open Browser and go to http://localhost:3000
-#### Step 7) Open Memories-Backend Directory in Command Prompt and run the following command:
+
 ```
 npm i
 ```
@@ -56,7 +48,7 @@ const url = "https://afternoon-reef-07616.herokuapp.com/posts";
 ```
 instead of: 
 ```
-const url = "https://memories-api1.herokuapp.com/posts";
+const url = "https://localhost:5000/posts";
 ```
 ***
 
