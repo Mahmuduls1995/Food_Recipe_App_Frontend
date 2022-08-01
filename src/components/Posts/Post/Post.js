@@ -32,13 +32,13 @@ const Post = ({ post, currentID, setCurrentID, user, authState }) => {
     return (
         <Container>
             <Heading BgImg={post.selectedFile}>
-                <Top style={{color: "black"}}>
+                <Top style={{color: "blue"}}>
                     {post.name}
                     {
                         // The Edit icon will be visible only if the user is the creator
                         (post.creator === (user?.result?._id || user?.result?.id))
                         &&
-                        <button style={{color: "black"}} onClick={() => {
+                        <button style={{color: "blue"}} onClick={() => {
                             if (authState)
                                 setCurrentID(post._id)
                             else
@@ -48,7 +48,7 @@ const Post = ({ post, currentID, setCurrentID, user, authState }) => {
                         </button>
                     }
                 </Top>
-                <Time style={{color: "black"}}>
+                <Time style={{color: "blue"}}>
                     {moment(post.createdAt).fromNow()}
                 </Time>
             </Heading>
@@ -66,7 +66,7 @@ const Post = ({ post, currentID, setCurrentID, user, authState }) => {
                     </Link>
                 </Title>
                 <Message>
-                    {post.message.slice(0, 200)}
+                    {post.message.slice(0, 270)}         <Link to={`/post/${post?._id}`}>Read...</Link>
                 </Message>
                 <Actions>
                     {/* Likes to be updated. */}
@@ -135,8 +135,8 @@ const Container = styled.div`
     flex-direction: column;
     box-sizing: border-box;
     box-shadow: rgb(155 149 149) 0px 0px 12px 0px;
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
     margin: 10px;
     border-radius: 8px;
     button{
