@@ -7,7 +7,7 @@
 <h2>Do you any interesting Food Recipe?</h2>
 <h2>Don't wait! Go and post it on: https://food-recipe-app-c79d0.web.app/</h2>
 
-## About Memories:
+## About Food Recipe App:
 Food Recipe is an Web Application where individuals can post their daily interesting Food Recipe. It's a social platform where people can enjoy, share, read, like or dislike the stories of their friends and other people from all around the world.
 
 ### Steps to Run on Local Machine
