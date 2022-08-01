@@ -96,7 +96,7 @@ const Form = ({currentID, setCurrentID, user, authState}) => {
             <Search />
             <form onSubmit={handleSubmit}>
                 <FormTitle>
-                    { currentID? 'Editing' : 'Create'} a Memory
+                    { currentID? 'Editing' : 'Create'} a Food Recipe
                 </FormTitle>
                 <Inputs>
                     <input 
